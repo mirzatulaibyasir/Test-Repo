@@ -32,3 +32,16 @@ print("Printing only even index chars")
 for i in range(0, size - 1, 2):
     print("index[", i, "]", word[i])
 
+
+#Problem 4
+remove_slice = "Constantinople"
+print(remove_slice[1:15:2])
+
+def remove_char(word, n):
+    print('Original string: ', word)
+    x = word[n:]
+    return x
+
+print("Removing characters from string")
+print(remove_char("Constantinople", 4))
+print(remove_char("Constantinople", 2))
